@@ -1,0 +1,9 @@
+server:
+  port: 9296
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/cihankaynak/dcb-spring-boot-microservices-config-server
+          clone-on-start: true
